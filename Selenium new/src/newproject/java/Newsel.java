@@ -14,6 +14,7 @@ public class Newsel {
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
         WebDriver driver =new ChromeDriver ();
         driver.get("https://www.facebook.com/");
+        //comment
         //driver.findElement(By.partialLinkText("Forgotten")).click();
         //driver.findElement(By.xpath("//input[@name='firstname']")).click();
         //driver.findElement(By.xpath("//input[@data-testid='royal_login_button']")).click();
